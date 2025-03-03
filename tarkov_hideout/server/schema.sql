@@ -19,6 +19,8 @@ CREATE TABLE  item(
                               item_id INT NOT NULL AUTO_INCREMENT,
                               name Varchar(200),
                               icon_link Varchar(3000),
+                              width INT,
+                              height INT,
                               PRIMARY KEY (item_id)
 );
 
